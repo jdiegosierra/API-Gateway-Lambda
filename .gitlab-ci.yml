@@ -1,0 +1,3 @@
+include:
+  - project: 'yourcompany/common/pipeline-templates'
+    file: 'multiple-api-lambdas-template.yml'

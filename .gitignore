@@ -1,0 +1,24 @@
+# Node
+node_modules
+yarn-error.log
+package-lock.json
+
+# AWS CDK
+.cdk.staging
+cdk.out
+cdk.context.json
+
+# IDE
+.idea
+.vscode
+
+# LAMBDAS
+lambdas/*/configs
+lambdas/*/errors
+!lambdas/base/**
+coverage/
+/lambdas/base/configs/config.js
+
+# CI/CD
+reports/helpers/*.html
+reports/helpers/*.md

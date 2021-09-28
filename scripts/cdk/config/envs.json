@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "account": "1111111111111",
+    "regions": {
+      "main": "eu-west-1"
+    },
+  },
+  "test": {
+    "account": "2222222222222",
+    "regions": {
+      "main": "eu-west-1"
+    }
+  },
+  "prod": {
+    "account": "3333333333333",
+    "regions": {
+      "main": "eu-west-1",
+      "failOver": "eu-central-1"
+    }
+  }
+}

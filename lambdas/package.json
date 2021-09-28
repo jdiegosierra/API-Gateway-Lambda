@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "grunt": "../node_modules/.bin/grunt"
+  },
+  "workspaces": [
+    "hello-world"
+  ],
+  "dependencies": {
+    "@YourCompany/sdk": "1.0.0"
+  }
+}

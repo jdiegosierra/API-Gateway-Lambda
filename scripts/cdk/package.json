@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.108.0",
+    "@yourcompany/cdk": "1.0.0",
+    "@types/node": "^15.12.2",
+    "aws-cdk": "^1.108.1",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  }
+}
