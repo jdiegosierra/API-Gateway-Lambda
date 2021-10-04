@@ -15,14 +15,14 @@ module.exports = {
             {
                 type: 'confirm',
                 name: 'hasPipelines',
-                message: 'Would you like pipelines in your project?'
+                message: 'Would you like to have pipelines in your project?'
             }
         ])).hasPipelines;
 
         if (hasPipelines) {
             projectPipelinesPlatform = (await this.prompt([
                 {
-                    message: 'Choose a platform where you to run your pipelines',
+                    message: 'Choose a platform where you want to run your pipelines:',
                     type: 'list',
                     name: 'projectPipelinesPlatform',
                     choices: ['Gitlab', 'Github']
@@ -45,7 +45,7 @@ module.exports = {
             );
         }
     },
-    install() {
+    async install() {
         shell.cd(this.destinationPath());
         shell.exec('make build');
     }
