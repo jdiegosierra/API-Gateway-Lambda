@@ -5,8 +5,5 @@
   },
   "workspaces": [
     "hello-world"
-  ],
-  "dependencies": {
-    "@YourCompany/sdk": "1.0.0"
-  }
+  ]
 }

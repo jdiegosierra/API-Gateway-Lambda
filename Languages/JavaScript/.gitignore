@@ -8,9 +8,6 @@ package-lock.json
 cdk.out
 cdk.context.json
 
-# IDE
-.idea
-.vscode
 
 # LAMBDAS
 lambdas/*/configs
